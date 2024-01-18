@@ -1212,27 +1212,6 @@
                 localStorage.setItem('language', 'en');
             } 
         </script>
-         <script>
-            // Check language on page load
-            document.addEventListener("DOMContentLoaded", function () {
-                checkLanguageAndNavigate();
-            });
-
-            function checkLanguageAndNavigate() {
-                // Retrieve the language value from local storage
-                var language = localStorage.getItem('language');
-
-                // Check if the language is set to "ar"
-                if (language === 'en') {
-                    // If the language is "ar", navigate to indexAr.html
-                    window.location.href = '../index.html';
-                } else {
-                    // Handle other cases or set a default behavior
-                    // For example, you might want to do nothing or navigate to a default page
-                    // window.location.href = 'default.html';
-                }
-            }
-        </script>
 </body>
 
 </html>
