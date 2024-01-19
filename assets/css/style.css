@@ -68,6 +68,7 @@
   --primary_color: #2e384f;
   --secondary_color: #ca9c31;
  --box_color:#cdb67c;
+ 
 }
 
 
@@ -2763,7 +2764,7 @@ input[type=checkbox] {
   }
 }
 .header-top-info-inner.default-color .info-item .info-icon {
-  color: var(--primary_color);
+  color: #224cae;
 }
 
 .top-info-slider__container {

@@ -2761,7 +2761,7 @@ input[type=checkbox] {
   }
 }
 .header-top-info-inner.default-color .info-item .info-icon {
-  color: var(--primary_color);
+  color: #224cae;
 }
 
 .top-info-slider__container {
